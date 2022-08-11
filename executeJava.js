@@ -1,4 +1,4 @@
-const { java } = require('compile-run');
+const {java } = require('compile-run');
 
 
 const executeJava = async (filepath) => {
