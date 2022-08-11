@@ -2,7 +2,7 @@ const { java } = require('compile-run');
 
 
 const executeJava = async (filepath) => {
-	filepath = './codes/abcd.java';
+	filepath = 'abcd.java';
 	return new Promise((resolve, reject) => {
 	
 		java.runFile(filepath, (error, result) => {
