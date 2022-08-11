@@ -1,0 +1,16 @@
+{
+  "name": "npm-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compile-run": "^2.3.4",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
