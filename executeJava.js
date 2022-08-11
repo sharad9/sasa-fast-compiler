@@ -1,8 +1,8 @@
-const {java } = require('compile-run');
+const { java } = require('compile-run');
 
 
 const executeJava = async (filepath) => {
-	console.log(filepath);
+	filepath = './codes/abcd.java';
 	return new Promise((resolve, reject) => {
 	
 		java.runFile(filepath, (error, result) => {
